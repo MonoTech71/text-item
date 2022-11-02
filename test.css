@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(221, 221, 221);
+}
+h1{
+    text-align: center;
+    color: rgb(5, 177, 230);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#all{
+    display: flex;
+    gap: 2rem;
+    margin: 2rem 25rem;
+}
+#all2{
+    display: flex;
+    gap: 2rem;
+    margin: 0rem 25rem;
+    margin-top: 2rem;
+}
+.container{
+    background-color: rgb(41, 224, 224) ;
+    width: 280px;
+    height: 250px;
+    border-radius: 1rem;
+}
+p{
+    font-size: 0.8rem;
+}
+
+.texts{
+    text-align: center;
+    padding-top: 2rem;
+    font-family: arial;
+}
+.texts img{
+    width: 2.5rem;
+    height: 3rem;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+.btn{
+    background-color: rgb(5, 177, 230);
+    padding: 0.7rem;
+    width: 8rem;
+    border-radius: 0.4rem;
+    border: none;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+}
